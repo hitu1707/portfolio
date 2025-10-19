@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Hitesh Singh - Full Stack Developer & Designer Portfolio">
+    <meta name="author" content="Hitesh Singh">
+    <title>Hitesh Singh | Full Stack Developer</title>
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="img/favicon.ico">
+    
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Preconnect for performance -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+</head>
+
+<body>
+    <!-- Loading Screen -->
+    <div class="loader">
+        <div class="loader-advanced"></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">Hitesh<span style="color: var(--color-secondary);">.</span></div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <button class="hamburger" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <!-- Animated Background Shapes -->
+        <div class="shape"></div>
+        <div class="shape"></div>
+        <div class="shape"></div>
+
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title typing-cursor">
+                    Hi, I'm <span class="highlight">Hitesh Singh</span>
+                </h1>
+                <p class="hero-subtitle">Full Stack Developer & Designer</p>
+                <p class="hero-description">
+                    I design and develop modern web applications with a focus on performance and user experience. 
+                    Passionate about creating seamless digital experiences using the MERN stack.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">
+                        <i class="fas fa-briefcase"></i> View Work
+                    </a>
+                    <a href="#contact" class="btn btn-secondary">
+                        <i class="fas fa-envelope"></i> Contact Me
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about fade-in">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <p class="section-subtitle">Get to know me better</p>
+            
+            <div class="about-content">
+                <div class="profile-pic">
+                    <img src="img/WhatsApp Image 2025-10-01 at 11.56.40_f99d5379.jpg" alt="Hitesh Singh - Profile Picture" loading="lazy">
+                </div>
+                
+                <div class="about-text">
+                    <h3>Hello! I'm a passionate developer</h3>
+                    <p>
+                        I'm a Full Stack Developer and Designer focused on building modern, responsive, and
+                        user-friendly web applications. I'm currently working with the MERN stack to create 
+                        seamless front-end experiences and efficient backend systems.
+                    </p>
+                    <p>
+                        I started learning web development out of curiosity, and over time, it became a genuine 
+                        passion for creating smooth and engaging user experiences. I believe in writing clean, 
+                        maintainable code and constantly learning new technologies.
+                    </p>
+                    
+                    <div class="about-info">
+                        <div class="info-item">
+                            <i class="fas fa-user"></i>
+                            <div>
+                                <span class="info-label">Name:</span>
+                                <span class="info-value">Hitesh Singh</span>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <span class="info-label">Email:</span>
+                                <span class="info-value">hiteshsingh17077@gmail.com</span>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <span class="info-label">Location:</span>
+                                <span class="info-value">Bangalore, India</span>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-briefcase"></i>
+                            <div>
+                                <span class="info-label">Experience:</span>
+                                <span class="info-value">Fresher / Entry Level</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="hero-buttons" style="margin-top: var(--space-xl);">
+                        <a href="#contact" class="btn btn-primary">
+                            <i class="fas fa-paper-plane"></i> Get In Touch
+                        </a>
+                        <a href="files/resume.pdf" download class="btn btn-outline">
+                            <i class="fas fa-download"></i> Download CV
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills slide-up">
+        <div class="container">
+            <h2 class="section-title">My Skills</h2>
+            <p class="section-subtitle">Technologies I work with</p>
+            
+            <div class="skills-grid">
+                <!-- Skill Card 1 -->
+                <div class="skill-card">
+                    <div class="skill-header">
+                        <div class="skill-icon" style="background: linear-gradient(135deg, #f7df1e 0%, #f0db4f 100%);">
+                            <i class="fab fa-js-square"></i>
+                        </div>
+                        <div>
+                            <h3 class="skill-name">JavaScript</h3>
+                            <span class="skill-level">90%</span>
+                        </div>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-progress="90"></div>
+                    </div>
+                </div>
+
+                <!-- Skill Card 2 -->
+                <div class="skill-card">
+                    <div class="skill-header">
+                        <div class="skill-icon" style="background: linear-gradient(135deg, #61dafb 0%, #4fa3d1 100%);">
+                            <i class="fab fa-react"></i>
+                        </div>
+                        <div>
+                            <h3 class="skill-name">React</h3>
+                            <span class="skill-level">85%</span>
+                        </div>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-progress="85"></div>
+                    </div>
+                </div>
+
+                <!-- Skill Card 3 -->
+                <div class="skill-card">
+                    <div class="skill-header">
+                        <div class="skill-icon" style="background: linear-gradient(135deg, #68a063 0%, #4d7c0f 100%);">
+                            <i class="fab fa-node-js"></i>
+                        </div>
+                        <div>
+                            <h3 class="skill-name">Node.js</h3>
+                            <span class="skill-level">80%</span>
+                        </div>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-progress="80"></div>
+                    </div>
+                </div>
+
+                <!-- Skill Card 4 -->
+                <div class="skill-card">
+                    <div class="skill-header">
+                        <div class="skill-icon" style="background: linear-gradient(135deg, #000000 0%, #404040 100%);">
+                            <i class="fas fa-server"></i>
+                        </div>
+                        <div>
+                            <h3 class="skill-name">Express.js</h3>
+                            <span class="skill-level">80%</span>
+                        </div>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-progress="80"></div>
+                    </div>
+                </div>
+
+                <!-- Skill Card 5 -->
+                <div class="skill-card">
+                    <div class="skill-header">
+                        <div class="skill-icon" style="background: linear-gradient(135deg, #4db33d 0%, #3fa037 100%);">
+                            <i class="fas fa-leaf"></i>
+                        </div>
+                        <div>
+                            <h3 class="skill-name">MongoDB</h3>
+                            <span class="skill-level">75%</span>
+                        </div>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-progress="75"></div>
+                    </div>
+                </div>
+
+                <!-- Skill Card 6 -->
+                <div class="skill-card">
+                    <div class="skill-header">
+                        <div class="skill-icon" style="background: linear-gradient(135deg, #e34c26 0%, #f06529 100%);">
+                            <i class="fab fa-html5"></i>
+                        </div>
+                        <div>
+                            <h3 class="skill-name">HTML5</h3>
+                            <span class="skill-level">95%</span>
+                        </div>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-progress="95"></div>
+                    </div>
+                </div>
+
+                <!-- Skill Card 7 -->
+                <div class="skill-card">
+                    <div class="skill-header">
+                        <div class="skill-icon" style="background: linear-gradient(135deg, #264de4 0%, #2965f1 100%);">
+                            <i class="fab fa-css3-alt"></i>
+                        </div>
+                        <div>
+                            <h3 class="skill-name">CSS3</h3>
+                            <span class="skill-level">90%</span>
+                        </div>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-progress="90"></div>
+                    </div>
+                </div>
+
+                <!-- Skill Card 8 -->
+                <div class="skill-card">
+                    <div class="skill-header">
+                        <div class="skill-icon" style="background: linear-gradient(135deg, #f34b7d 0%, #c32361 100%);">
+                            <i class="fab fa-sass"></i>
+                        </div>
+                        <div>
+                            <h3 class="skill-name">Git & GitHub</h3>
+                            <span class="skill-level">85%</span>
+                        </div>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-progress="85"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects fade-in">
+        <div class="container">
+            <h2 class="section-title">My Projects</h2>
+            <p class="section-subtitle">Some of my recent work</p>
+            
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <article class="project-card">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1611262588024-d12430b98920?w=600" 
+                             alt="Chat Application" 
+                             loading="lazy">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Real-Time Chat Application</h3>
+                        <p class="project-description">
+                            A full-featured real-time chat application with WebSocket support, 
+                            user authentication, and message history.
+                        </p>
+                        <div class="project-tags">
+                            <span class="project-tag">React</span>
+                            <span class="project-tag">Node.js</span>
+                            <span class="project-tag">Socket.io</span>
+                            <span class="project-tag">MongoDB</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link" target="_blank">
+                                <i class="fas fa-external-link-alt"></i> Live Demo
+                            </a>
+                            <a href="https://github.com/hitu1707" class="project-link" target="_blank">
+                                <i class="fab fa-github"></i> Source Code
+                            </a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Project 2 -->
+                <article class="project-card">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600" 
+                             alt="Portfolio Website" 
+                             loading="lazy">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Modern Portfolio Website</h3>
+                        <p class="project-description">
+                            A responsive and interactive portfolio website with smooth animations 
+                            and modern design principles.
+                        </p>
+                        <div class="project-tags">
+                            <span class="project-tag">HTML5</span>
+                            <span class="project-tag">CSS3</span>
+                            <span class="project-tag">JavaScript</span>
+                            <span class="project-tag">Responsive</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link" target="_blank">
+                                <i class="fas fa-external-link-alt"></i> Live Demo
+                            </a>
+                            <a href="https://github.com/hitu1707" class="project-link" target="_blank">
+                                <i class="fab fa-github"></i> Source Code
+                            </a>
+                        </div>
+                    </div>
+                </article>
+
+
+                <!-- Coming Soon Card -->
+                <article class="project-card" style="border: 2px dashed var(--color-gray-300);">
+                    <div class="project-image" style="background: var(--primary-gradient); display: flex; align-items: center; justify-content: center;">
+                        <div style="text-align: center; color: white; padding: var(--space-xl);">
+                            <div style="font-size: 4rem; margin-bottom: var(--space-md);">🚀</div>
+                            <h3 style="font-size: var(--font-xl); margin-bottom: var(--space-sm);">More Projects Coming Soon</h3>
+                            <p style="opacity: 0.9;">Stay tuned for exciting new projects!</p>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Work in Progress</h3>
+                        <p class="project-description">
+                            Currently working on several exciting projects. Check back soon to see what's new!
+                        </p>
+                        <div class="project-tags">
+                            <span class="project-tag">In Progress</span>
+                            <span class="project-tag">2025</span>
+                        </div>
+                    </div>
+                </article>
+            </div>
+
+            <!-- View All Projects Button -->
+            <div style="text-align: center; margin-top: var(--space-2xl);">
+                <a href="https://github.com/hitu1707" target="_blank" class="btn btn-outline">
+                    <i class="fab fa-github"></i> View All Projects on GitHub
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact slide-up">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <p class="section-subtitle">Let's work together on your next project</p>
+            
+            <div class="contact-content">
+                <!-- Contact Info -->
+                <div class="contact-info">
+                    <h3>Let's work together</h3>
+                    <p>
+                        I'm always open to discussing new projects, creative ideas,
+                        or opportunities to be part of your vision. Feel free to reach out!
+                    </p>
+
+                    <!-- Contact Items -->
+                    <div class="contact-details">
+                        <!-- Email -->
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h3>Email</h3>
+                                <p>
+                                    <a href="mailto:hiteshsingh17077@gmail.com">
+                                        hiteshsingh17077@gmail.com
+                                    </a>
+                                </p>
+                                <button onclick="copyEmail(this)" class="copy-btn">
+                                    <i class="fas fa-copy"></i> Copy
+                                </button>
+                            </div>
+                        </div>
+
+                        <!-- Phone -->
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h3>Phone</h3>
+                                <p>
+                                    <a href="tel:+919313329309">+91 9313329309</a>
+                                </p>
+                                <button onclick="copyPhone(this)" class="copy-btn">
+                                    <i class="fas fa-copy"></i> Copy
+                                </button>
+                            </div>
+                        </div>
+
+                        <!-- Location -->
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h3>Location</h3>
+                                <p>
+                                    <a href="https://www.google.com/maps/place/Bangalore" target="_blank">
+                                        Bangalore, India
+                                    </a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Social Links -->
+                    <div class="social-links">
+                        <a href="https://github.com/hitu1707" target="_blank" class="social-link github" 
+                           aria-label="GitHub Profile">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://www.instagram.com/hitu_1707_/" target="_blank" class="social-link instagram" 
+                           aria-label="Instagram Profile">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="https://leetcode.com/u/hitu1707/" target="_blank" class="social-link" 
+                           aria-label="LeetCode Profile">
+                            <i class="fas fa-code"></i>
+                        </a>
+                    
+                    </div>
+                </div>
+
+                <!-- Contact Form -->
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Your Name</label>
+                            <input type="text" 
+                                   id="name" 
+                                   class="form-control" 
+                                   placeholder="Name" 
+                                   required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Your Email</label>
+                            <input type="email" 
+                                   id="email" 
+                                   class="form-control" 
+                                   placeholder="XYZ123@gmail.com" 
+                                   required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" 
+                                   id="subject" 
+                                   class="form-control" 
+                                   placeholder="Project Discussion" 
+                                   required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" 
+                                      class="form-control" 
+                                      rows="5" 
+                                      placeholder="Your message here..." 
+                                      required></textarea>
+                        </div>
+
+                        <button type="submit" class="submit-btn">
+                            <i class="fas fa-paper-plane"></i> Send Message
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <p class="footer-text">
+                &copy; <span class="current-year">2025</span> Hitesh Singh. All rights reserved.
+            </p>
+            <div class="footer-links">
+                <a href="#home" class="footer-link">Home</a>
+                <a href="#about" class="footer-link">About</a>
+                <a href="#skills" class="footer-link">Skills</a>
+                <a href="#projects" class="footer-link">Projects</a>
+                <a href="#contact" class="footer-link">Contact</a>
+            </div>
+            <p class="footer-text" style="margin-top: var(--space-sm); font-size: var(--font-sm);">
+                Made with <span style="color: #e74c3c;">❤️</span> and lots of <i class="fas fa-coffee"></i>
+            </p>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+
+</html>
