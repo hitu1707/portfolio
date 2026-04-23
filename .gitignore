@@ -1,0 +1,21 @@
+# .gitignore
+# Add config.js to it
+
+# Secret config - NEVER upload
+config.js
+
+# Environment variables
+.env
+.env.local
+.env.production
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
+
+# Node modules
+node_modules/
